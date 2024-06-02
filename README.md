@@ -5,7 +5,7 @@ Este projeto é um site de portfólio desenvolvido como parte de um curso. Ele e
 <br>
 
 <p align="center">
-    <a href="https://portfolio-luangomes.netlify.app/">
+    <a href="https://portfolio-luangomes.netlify.app/" target="_blank">
       <img src="https://raw.githubusercontent.com/LuanGomes99/Portfolio-HTMLCSS/main/portfolio-img.png">
     </a>
 </p>
@@ -58,7 +58,7 @@ O arquivo CSS lida com a estilização e o layout da página web, com estilos es
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/LuanGomes99/projeto-portfolio.git
+   git clone https://github.com/LuanGomes99/Portfolio-HTMLCSS.git
    ```
 
 <br>
