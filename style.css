@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+/* Tela Celular | Tablet */
+@media (max-width: 768px) {
+
+    .titulo-destaque {
+        color: #c501e2;
+    }
+
+    .apresentacao {
+        margin: 10vh 10vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5vh;
+    }
+
+    .apresentacao__conteudo {
+        width: 60vw;
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        text-align: center;
+    }
+
+    .apresentacao__conteudo__titulo {
+        font-size: 5vw;
+        font-family: 'Krona One', sans-serif;
+    }
+
+    .apresentacao__conteudo__texto {
+        font-size: 3vw;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .apresentacao__links {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .apresentacao__links__link {
+        background-color: #c501e2;
+        width: 25vw;
+        text-align: center;
+        border-radius: 1vw;
+        font-size: 3vw;
+        font-weight: 600;
+        padding: 2vh 0;
+        text-decoration: none;
+        color: #000000;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .apresentacao__imagem {
+        width: 60vw;
+        height: auto;
+    }
+}
+
+/* Tela Notebook */
+@media (min-width: 768px) AND (max-width: 1199.9px) {
+    .titulo-destaque {
+        color: #c501e2;
+    }
+
+    .apresentacao {
+        margin: 10vh 10vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5vh;
+    }
+
+    .apresentacao__conteudo {
+        width: 50vw;
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+        text-align: center;
+    }
+
+    .apresentacao__conteudo__titulo {
+        font-size: 3.4vw;
+        font-family: 'Krona One', sans-serif;
+    }
+
+    .apresentacao__conteudo__texto {
+        font-size: 2vw;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .apresentacao__links {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .apresentacao__links__link {
+        background-color: #c501e2;
+        width: 15vw;
+        text-align: center;
+        border-radius: 1vw;
+        font-size: 2vw;
+        font-weight: 600;
+        padding: 1.8vh 0;
+        text-decoration: none;
+        color: #000000;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .apresentacao__imagem {
+        width: 40vw;
+        height: auto;
+    }
+}
+
+/* Tela PC */
+@media (min-width: 1200px) {
+    .titulo-destaque {
+        color: #c501e2;
+    }
+
+    .apresentacao {
+        margin: 15vh 15vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .apresentacao__conteudo {
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+    }
+
+    .apresentacao__conteudo__titulo {
+        font-size: 1.8vw;
+        font-family: 'Krona One', sans-serif;
+    }
+
+    .apresentacao__conteudo__texto {
+        font-size: 1.5vw;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .apresentacao__links {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .apresentacao__links__link {
+        background-color: #c501e2;
+        width: 14vw;
+        text-align: center;
+        border-radius: 1vw;
+        font-size: 1.5vw;
+        font-weight: 600;
+        padding: 2vh 0;
+        text-decoration: none;
+        color: #000000;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .apresentacao__imagem {
+        width: 26vw;
+        height: auto;
+    }
+}
